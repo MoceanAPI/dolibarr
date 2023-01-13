@@ -1,6 +1,6 @@
 # Dolibarr MoceanAPI module user documentation
 
-## Contents
+## Table of Contents
 - [Installation](#installation)
 - [Prerequisites](#prerequisites)
 - [Features](#features)
