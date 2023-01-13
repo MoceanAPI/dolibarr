@@ -18,7 +18,7 @@
 
 1. Download the latest version of MoceanAPI module [here](https://www.dolistore.com/en/modules/1615-MoceanAPI-Send-SMS.html)
 
-2. Click on one of the items in the board and click on the `+` sign
+2. Go to **Setup - Modules/Application** 
 
 ![image](https://user-images.githubusercontent.com/24620178/211969217-e9818635-96f7-452f-bc37-ae9985392246.png)
 
@@ -83,7 +83,7 @@ You can find your `API Credentials` [here](https://dashboard.moceanapi.com/user/
 
 ![image](https://user-images.githubusercontent.com/24620178/211984311-27ed7728-2c23-457c-8c2e-f9a9eee0db55.png)
 
-6. If `Scheduled` is green color, your configuration is correct. If not, please recheck the steps above or you can contact us.
+6. If `Scheduled` is green color, your configuration is correct. If not, please recheck the steps above.
 
 ![image](https://user-images.githubusercontent.com/24620178/212039077-3ec2f108-0ad0-4b15-a01e-ba0381c994a2.png)
 
