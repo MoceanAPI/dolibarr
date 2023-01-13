@@ -11,7 +11,6 @@
             - [Set PHP timezone in server](#set-php-timezone-in-server)
             - [Setup Cron Job](#setup-cron-job)
         - [Send Reminder Configuration](#send-reminder-configuration)
-- [Whitelist IP Address](#whitelist-ip-address)
 - [Frequently Asked Questions](#faq)
 - [Feature Request](#feature-request)
 - [Feedback](#feedback)
