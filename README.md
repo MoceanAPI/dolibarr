@@ -7,7 +7,7 @@
     - [Send SMS Notification](#send-sms-notification)
         - [Configuration](#configuration)
     - [Send Invoice Reminder](#send-invoice-reminder)
-        - [Prerequisites](#prerequisites)
+        - [Reminder Prerequisite](#reminder-prerequisite)
             - [Set PHP timezone in server](#set-php-timezone-in-server)
             - [Setup Cron Job](#setup-cron-job)
         - [Send Reminder Configuration](#send-reminder-configuration)
@@ -56,7 +56,7 @@ For eg: `Send SMS when an invoice is validated`
 6. SMS sent information will be available in the **SMS Outbox**
 
 ### Send Invoice Reminder
-#### Prerequisites
+#### Reminder Prerequisite
 
 ##### Set PHP timezone in server
 
@@ -98,7 +98,7 @@ For eg: `Send SMS when an invoice is validated`
 
 `*/5 * * * * /usr/bin/php /srv/dolibarr-16.0.0/scripts/cron/cron_run_jobs.php 715WIrfV14Blvdv4aQV26VMIrJwR4g2g admin > /srv/dolibarr-16.0.0/documents/cron_run_jobs.php.log`
 
-5. Navigate to **Admin Tools > Scheduled Jobs**
+5. Navigate to **Admin Tools > Scheduled Jobs** 
 
 ![image](https://user-images.githubusercontent.com/24620178/211984311-27ed7728-2c23-457c-8c2e-f9a9eee0db55.png)
 
