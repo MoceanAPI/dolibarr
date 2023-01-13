@@ -4,6 +4,8 @@
 - [Installation](#installation)
 - [Prerequisites](#prerequisites)
 - [Features](#features)
+    - [Send SMS Notification](#send-sms-notification)
+        - [Configuration](#configuration)
     - [Send Invoice Reminder](#send-invoice-reminder)
         - [Prerequisites](#prerequisites)
             - [Set PHP timezone in server](#set-php-timezone-in-server)
@@ -38,13 +40,30 @@ You can find your `API Credentials` [here](https://dashboard.moceanapi.com/user/
 ![image](https://user-images.githubusercontent.com/24620178/211975339-73e80f70-bde2-49c5-895e-b400cd5401d6.png)
 
 ## Features
+### Send SMS Notification
+You can send SMS notifications based on specific events that occured in dolibarr.
+For eg: `Send SMS when an invoice is validated`
+
+#### Configuration
+1. Navigate to **MoceanAPI** app via **Top Navigation**
+2. Click on the module you'd like to configure. For eg: **Invoice** module
+3. You can then configure the trigger for SMS notification. For eg: **Send SMS when Invoice is validated**
+
+![image](https://user-images.githubusercontent.com/24620178/212219128-2d1e16cf-8ad0-4643-bc1a-2566631420e5.png)
+
+4. Once you're satisfied with all the configurations, you can click on **Save SMS Setting** at the bottom of the page
+5. Test the SMS notification by Validating an Invoice.
+6. SMS sent information will be available in the **SMS Outbox**
+
 ### Send Invoice Reminder
 #### Prerequisites
 
 ##### Set PHP timezone in server
 
 1. `SSH` into your server
-2. `nano /etc/php/7.4/apache2/php.ini`
+2. Modify your `php.ini` file
+
+`nano /etc/php/7.4/apache2/php.ini`
 
 ![image](https://user-images.githubusercontent.com/24620178/212011885-cfcb833d-e624-4d7e-b95c-96e63cee00f2.png)
 
@@ -79,7 +98,7 @@ You can find your `API Credentials` [here](https://dashboard.moceanapi.com/user/
 
 `*/5 * * * * /usr/bin/php /srv/dolibarr-16.0.0/scripts/cron/cron_run_jobs.php 715WIrfV14Blvdv4aQV26VMIrJwR4g2g admin > /srv/dolibarr-16.0.0/documents/cron_run_jobs.php.log`
 
-5. Navigate to **Admin Tools > Scheduled Jobs** 
+5. Navigate to **Admin Tools > Scheduled Jobs**
 
 ![image](https://user-images.githubusercontent.com/24620178/211984311-27ed7728-2c23-457c-8c2e-f9a9eee0db55.png)
 
