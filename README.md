@@ -11,6 +11,7 @@
             - [Set PHP timezone in server](#set-php-timezone-in-server)
             - [Setup Cron Job](#setup-cron-job)
         - [Send Reminder Configuration](#send-reminder-configuration)
+    - [Voice call](#voice-call)
 - [Frequently Asked Questions](#faq)
 - [Feature Request](#feature-request)
 - [Feedback](#feedback)
@@ -122,6 +123,16 @@ For eg: `Send SMS when an invoice is validated`
 5. Enable the SMS notification and click on `Save SMS Setting` at the bottom of the page.
 
 ![image](https://user-images.githubusercontent.com/24620178/211982500-880cfd3a-9a5d-44f1-9d07-185cd0de7196.png)
+
+### Voice Call
+Before you can call, you need to set a **callback number**. This will usually be your number.
+After you recipient have answered the call, we will forward the call to you and you'll be connected to the call.
+
+1. Navigate to `Contact` of your choice
+2. You should see a **Button** `MoceanAPI - Call`.
+3. Click on it, and we'll connect the call to your recipient.
+
+![image](https://user-images.githubusercontent.com/24620178/229585884-2ef49d9f-66f9-44e7-b51e-de6439c3b021.png)
 
 ## FAQ
 1. Can I get Test Credits ?
