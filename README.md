@@ -34,10 +34,10 @@
 
 ## Prerequisites
 1. Before you can send SMS, you need a `MoceanAPI account`. Register an account [here](https://dashboard.moceanapi.com/register?fr=dolibarr) in 5 minutes or less
-2. Navigate to `MoceanAPI module` in dolibarr and specify your `API Key`, `API Secret`, `Sender`(Your business name), `Default country` and `Active hour to send SMS reminder`. 
+2. Navigate to `MoceanAPI module` in dolibarr and specify your `API Token`, `Sender`(Your business name), `Default country` and `Active hour to send SMS reminder`. 
 You can find your `API Credentials` [here](https://dashboard.moceanapi.com/user/apisetting)
 
-![image](https://user-images.githubusercontent.com/24620178/211975339-73e80f70-bde2-49c5-895e-b400cd5401d6.png)
+![image](https://github.com/user-attachments/assets/8828d506-6acf-4820-bebc-8716538806ec)
 
 ## Features
 ### Send SMS Notification
